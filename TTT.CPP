@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<cstdlib>
 using namespace std;
 char square[10]={'0','1','2','3','4','5','6','7','8','9'};
 int check()
@@ -48,6 +49,7 @@ int check()
 void board()
 {
 // clrscr();
+ system("cls");
  cout<<"    TIC TAC TOE     "<<endl;
  cout<<"Player 1(X)  vs  Player 2(0)"<<endl<<endl<<endl;
  cout<<"       |       |        "<<endl;
@@ -65,6 +67,7 @@ int main()
  int player=1,i,choice;
  char XO;
  //clrscr();
+ system("cls");
  do
  {
   board();
